@@ -31,6 +31,7 @@ body{
 
 .box-color {
 	float:left;
+	position: absolute;
 	width: 450px;
 	height: 24px;
 	padding: 0px;
@@ -41,7 +42,7 @@ body{
 }
 
 .box-white {
-	float:left;
+	float:right;
 	width: 170px;
 	height: 24px;
 	padding: 0px;
@@ -51,6 +52,10 @@ body{
 	background-color: #FFFFFF;	
 }
 
+.container-1 {
+	width: 672px;
+
+}
 .container-2 {
 	width: 580px;
 	padding: 20px;
@@ -65,13 +70,49 @@ body{
 	line-height: 1.5em;
 }
 
-.label-1 {
-	color: #20A1D4;
-	font-style: italic;
-	padding-left: 30px;
+.my-form input{
 
+	width: 220px;
+	font-size: 36px;
+	border-radius: .2em;
+	border: 2px #DCDCDC solid;
+	box-shadow: 0px 2px 2px #DCDCDC;
+	margin: 20px 0px 0px 0px;
 }
 
-.form-group {
+.my-form input[type="text"] {
 	float: left;
+	height: 95px;
+	color: #000000;
+	margin-right: 10px;
+}
+
+.my-form input[type="submit"] {
+	height: 100px;
+	color: #FFFFFF;
+	background-color: #1CBC2C;
+	margin-left: 60px;
+}
+
+.button-2 {
+	color: gray;
+	font-family: 'Trebuchet MS';
+	font-size:28px;
+	float: left;
+	height: 75px;
+	width: 287px;
+	font-weight: bold;
+	margin: 20px 0px 0px 48px;
+	background-color: white;
+	border: 2px #DCDCDC solid;
+	box-shadow: 0px 2px 2px #DCDCDC;
+	border-radius: .2em;
+}
+
+.label-1 {
+	float: top;
+	color: #20A1D4;
+	font-style: italic;
+	padding-top: 20px;
+	padding-left: 30px;
 }

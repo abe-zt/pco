@@ -19,7 +19,7 @@ body{
 	content: '';
 	position: absolute;
 	bottom: 0;
-	left: 80%;
+	left: 83%;
 	width: 0;
 	height: 0;
 	border: 20px solid transparent;
@@ -31,12 +31,10 @@ body{
 
 .box-color {
 	float:left;
-	width: 400px;
+	width: 450px;
 	height: 24px;
-
 	padding: 0px;
 	margin: 0px 0px 0px 48px;
-
 	border: 2px #DCDCDC solid;
 	border-right: none;
 	background-color: #EF5F3C;
@@ -44,9 +42,8 @@ body{
 
 .box-white {
 	float:left;
-	width: 220px;
+	width: 170px;
 	height: 24px;
-
 	padding: 0px;
 	margin: 0px;
 	border: 2px #DCDCDC solid;
@@ -57,18 +54,24 @@ body{
 .container-2 {
 	width: 580px;
 	padding: 20px;
+	padding-bottom: 40px;
 	margin: 38px 48px;
 	border: 2px #DCDCDC solid;
 	box-shadow: 0px 2px 2px #DCDCDC;
 }
 
 .box-2 {
-	padding: 30px;
-	line-height: 1.6
+	padding: 10px 30px 30px 30px;
+	line-height: 1.5em;
 }
 
 .label-1 {
 	color: #20A1D4;
 	font-style: italic;
-	padding-top: 20px;
+	padding-left: 30px;
+
+}
+
+.form-group {
+	float: left;
 }
